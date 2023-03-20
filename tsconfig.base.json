@@ -1,0 +1,16 @@
+{
+  //compilerOptions 속성은 생략될 수 있으며 생략하면 컴파일러의 기본 값이 사용됨.
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules"]
+}
